@@ -48,3 +48,15 @@ IBM Telco Customer Churn Dataset.
 - customer_churn_model.pkl
 - model_features.pkl
 - requirements.txt
+## Model Performance Comparison
+
+| Model | Accuracy | Precision | Recall | F1-score |
+|---|---:|---:|---:|---:|
+| Logistic Regression | 80.55% | 65.82% | 55.62% | 60.29% |
+| Random Forest | 78.64% | 62.37% | 49.20% | 55.01% |
+
+### Best Performing Model
+Logistic Regression achieved the highest scores across all four evaluation metrics in this experiment.
+
+### Key Observation
+Logistic Regression performed better than Random Forest on the current train-test split. Further improvements can be explored through feature scaling, hyperparameter tuning, and classification threshold optimization.
