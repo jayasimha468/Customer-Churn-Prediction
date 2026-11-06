@@ -60,3 +60,8 @@ Logistic Regression achieved the highest scores across all four evaluation metri
 
 ### Key Observation
 Logistic Regression performed better than Random Forest on the current train-test split. Further improvements can be explored through feature scaling, hyperparameter tuning, and classification threshold optimization.
+## Live Demo
+
+Try the deployed application here:
+
+[Customer Churn Prediction App](https://customer-churn-prediction-638sv2ucqr4kb9qideundj.streamlit.app/)
